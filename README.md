@@ -9,13 +9,6 @@ A RESTful API built with .NET Core following clean architecture principles.
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the API](#running-the-api)
-- [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - RESTful design
@@ -32,18 +25,16 @@ A RESTful API built with .NET Core following clean architecture principles.
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/haithamelsaid/WeatherForecastAPI.git
    cd WeatherForecastAPI
+   Check ConnectionString Right in appsetting.json according your machine
+   execute update-database in package manager console 'after check default project infrastruction layer'
+   seed role in database manual "user" , "admin"
+   dotnet run and try Register and login APIs 
+   try Get Weather API
 
-2. Dotnet run
-   # or for hot reload
-   dotnet watch run
-
-3. Check Connection string in appsetting.json
-
-4. update-database in Package Manager Console 'after check Default Project Infrastruction Layer'
-
+Sorry about not completing task because not having time
 
 For any questions, contact haithamelsaid9@gmail.com
